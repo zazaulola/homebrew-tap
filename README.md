@@ -8,17 +8,15 @@ A menu bar app that keeps your Mac awake — a friendly GUI for the built-in
 `caffeinate` tool. Source: https://github.com/zazaulola/Caffeinator
 
 ```sh
-brew install --cask zazaulola/tap/caffeinator
+brew tap zazaulola/tap
+brew trust zazaulola/tap      # Homebrew 6+ requires trusting third-party tap casks
+brew install --cask caffeinator
 ```
 
 Caffeinator is ad-hoc signed and not notarized, so on first launch macOS
-Gatekeeper may block it. Either install without quarantine:
-
-```sh
-brew install --cask --no-quarantine zazaulola/tap/caffeinator
-```
-
-or right-click `Caffeinator.app` in **Applications** and choose **Open** once.
+Gatekeeper may block it. Right-click `Caffeinator.app` in **Applications** and
+choose **Open** once (or allow it under **System Settings → Privacy &
+Security**). After that it opens normally.
 
 ### Updating / removing
 

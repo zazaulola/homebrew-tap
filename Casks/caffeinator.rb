@@ -22,10 +22,8 @@ cask "caffeinator" do
 
   caveats <<~EOS
     Caffeinator is ad-hoc signed and not notarized. If macOS blocks the first
-    launch, either install with --no-quarantine:
-
-      brew install --cask --no-quarantine caffeinator
-
-    or right-click the app in Applications and choose Open the first time.
+    launch, right-click Caffeinator.app in Applications and choose Open once
+    (or allow it under System Settings > Privacy & Security). After that it
+    opens normally.
   EOS
 end
