@@ -1,6 +1,6 @@
 cask "caffeinator" do
-  version "1.0"
-  sha256 "62b61861c3c71521967968022d5ff5ae97a1d0918eede80634d5aeb47bf90665"
+  version "1.1"
+  sha256 "54a2d37487fa3a0bfd14767c6765e13a129c3a1da93529f251d03f8b0315eb2a"
 
   url "https://github.com/zazaulola/Caffeinator/releases/download/v#{version}/Caffeinator-v#{version}.zip",
       verified: "github.com/zazaulola/Caffeinator/"
